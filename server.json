@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/legalone-mcp",
+  "title": "LegalOne",
+  "description": "Wrapper for the official LegalOne API (Thomson Reuters / Novajus, Premium package): lawsuits and lit",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/legalone-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_legalone"
+    }
+  ]
+}
